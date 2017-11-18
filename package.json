@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": "git@github.com:tareq-rar/reduxReact.git",
   "scripts": {
-    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --port 8888",
+    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --port 8899",
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
     "test:watch": "npm run test -- --watch"
   },
@@ -26,6 +26,7 @@
     "webpack-dev-server": "^1.14.0"
   },
   "dependencies": {
+    "babel": "^6.23.0",
     "babel-preset-stage-1": "^6.1.18",
     "lodash": "^3.10.1",
     "react": "^0.14.3",

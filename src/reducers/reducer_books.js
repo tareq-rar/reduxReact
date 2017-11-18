@@ -3,9 +3,9 @@
  */
 export default function(){
     return[
-        {title: 'Love For Love'},
-        {title: 'Java Script For Beginner'},
-        {title: 'Advance Javascript Tutorial'},
-        {title: 'PHP Laravel'}
+        {title: 'Love For Love', pages: 101},
+        {title: 'Java Script For Beginner', pages: 39},
+        {title: 'Advance Javascript Tutorial', pages: 85},
+        {title: 'PHP Laravel', pages: 1}
     ];
 }
